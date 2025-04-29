@@ -1,0 +1,30 @@
+:root {
+  --color-bg: #fafafa;
+  --color-surface: #ffffff;
+  --color-primary: #009688;
+  --color-secondary: #ff5722;
+  --color-text: #212121;
+  --color-text-light: #616161;
+  --shadow-light: 0 2px 4px rgba(0,0,0,0.05);
+  --shadow-heavy: 0 8px 16px rgba(0,0,0,0.1);
+  --radius: 8px;
+  --transition-fast: 0.2s ease;
+  --transition: 0.3s ease;
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --spacing: 1rem;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--spacing);
+}
+/* … et tout le reste de ton CSS global … */
